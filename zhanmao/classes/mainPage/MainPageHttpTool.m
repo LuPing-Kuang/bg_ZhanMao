@@ -56,8 +56,8 @@
 {
     NSString* str=[ZZUrlTool fullUrlWithTail:@"/Content/Exhibition/new_exhibition"];
     [self get:str params:nil usingCache:cache success:^(NSDictionary *dict) {
-        NSArray* data=[dict valueForKey:@"data"];
-        
+        NSDictionary* dataDic=[dict valueForKey:@"data"];
+        NSArray *data = [dataDic valueForKey:@"list"];
         NSMutableArray* res=[NSMutableArray array];
         for (NSDictionary* di in data) {
             ExhibitionModel* exh=[[ExhibitionModel alloc]initWithDictionary:di];

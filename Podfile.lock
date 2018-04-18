@@ -1,0 +1,18 @@
+PODS:
+  - Bugly (2.5.0)
+  - IQKeyboardManager (4.0.13)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - Bugly (~> 2.5.0)
+  - IQKeyboardManager (~> 4.0.8)
+  - MJExtension (~> 3.0.13)
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 27f86833ca1d12c426f47937d1111a892650ede8
+
+COCOAPODS: 1.4.0

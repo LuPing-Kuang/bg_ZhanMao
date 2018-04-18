@@ -388,7 +388,7 @@
     }
     else if(type==CustomOrderTypeYanyi)
     {
-        return @"演艺";
+        return @"活动";
     }
     else if(type==CustomOrderTypeYaoyue)
     {

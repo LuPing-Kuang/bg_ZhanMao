@@ -68,6 +68,8 @@
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ExhibitionLargeRectTableViewCell* cell=[tableView dequeueReusableCellWithIdentifier:@"ExhibitionLargeRectTableViewCell" forIndexPath:indexPath];
+    
+        
     BaseModel* mo=[self.dataSource objectAtIndex:indexPath.section];
     cell.title.text=mo.post_title;
     [cell.image sd_setImageWithURL:[mo.thumb urlWithMainUrl]];

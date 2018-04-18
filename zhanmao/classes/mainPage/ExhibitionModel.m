@@ -35,7 +35,9 @@
             }
             _types=my_Types;
             
-            _prefixDictionary=[custom valueForKey:@"yutian"];        }
+            _prefixDictionary=[custom valueForKey:@"yutian"];
+            
+        }
         
     }
     return self;
