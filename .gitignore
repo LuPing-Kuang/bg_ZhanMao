@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Created by https://www.gitignore.io/api/xcode,cocoapods,objective-c
@@ -11,6 +12,8 @@
 Pods/
 
 ### Objective-C ###
+=======
+>>>>>>> 6314ec5ec36f292f0e55f05e7eea8a836ec9bde4
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -41,10 +44,27 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+<<<<<<< HEAD
 # CocoaPods - Refactored to standalone file
 
 
 # Carthage - Refactored to standalone file
+=======
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+>>>>>>> 6314ec5ec36f292f0e55f05e7eea8a836ec9bde4
 
 # fastlane
 #
@@ -64,6 +84,7 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+<<<<<<< HEAD
 
 ### Objective-C Patch ###
 
@@ -87,3 +108,5 @@ iOSInjectionProject/
 
 
 # End of https://www.gitignore.io/api/xcode,cocoapods,objective-c
+=======
+>>>>>>> 6314ec5ec36f292f0e55f05e7eea8a836ec9bde4
